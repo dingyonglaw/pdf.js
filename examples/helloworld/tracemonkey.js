@@ -64,7 +64,7 @@ function goNext() {
 //
 // Asynchronously download PDF as an ArrayBuffer
 //
-PDFJS.getDocument('tracemonkey.pdf').then(function getPdfHelloWorld(_pdfDoc) {
+PDFJS.getDocument('backend.pdf').then(function getPdfHelloWorld(_pdfDoc) {
   pdfDoc = _pdfDoc;
   renderPage(pageNum);
 });
